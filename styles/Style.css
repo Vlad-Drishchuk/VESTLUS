@@ -120,4 +120,116 @@ a {
   font-family: DIN;
   font-size: 35px;
   font-weight: 500;
+}
+
+.About-us-content {
+  max-width: 950px;
+  margin-left: calc(50vw - 475px);
+}
+.About-us-content h1 {
+  font-family: DIN;
+  font-size: 100px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 100px;
+  text-align: center;
+}
+.About-us-content .text1 {
+  margin-top: -15px;
+}
+.About-us-content .text {
+  font-size: 19px;
+  font-weight: 500;
+}
+.About-us-content .text a {
+  color: #000;
+  text-decoration-line: underline;
+  text-decoration-color: #000;
+}
+
+.Pricing {
+  background-color: #428683;
+}
+.Pricing h1 {
+  font-family: DIN;
+  font-size: 100px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+.Pricing .text {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-top: -15px;
+}
+.Pricing .Card-Row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin-left: calc(50vw - 512px);
+  justify-content: space-around;
+}
+.Pricing .Card-Row .card {
+  border-width: 1px 1px 2px 1px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 14px;
+  width: 321px;
+  height: 275px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+.Pricing .Card-Row .card .name-card {
+  height: 88.5px;
+  border-radius: 14px 14px 0px 0px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 63.5px;
+}
+.Pricing .Card-Row .card .item-card1 {
+  background-color: #F6CB45;
+}
+.Pricing .Card-Row .card .item-card2 {
+  background-color: #94A8E8;
+}
+.Pricing .Card-Row .card .item-card3 {
+  background-color: #F094E2;
+}
+.Pricing .Card-Row .card .item-card4 {
+  background-color: #ED7039;
+}
+.Pricing .Card-Row .card .more-info-parents {
+  display: flex;
+  align-items: center;
+  height: 123px;
+}
+.Pricing .Card-Row .card .more-info-parents .more-info {
+  width: 50%;
+}
+.Pricing .Card-Row .card .more-info-parents .more-info ul > li {
+  color: #3D3D3D;
+}
+.Pricing .Card-Row .card .more-info-parents .price-tariff {
+  width: 65px;
+  height: 65px;
+  border-radius: 35px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(40% - 65px);
+}
+.Pricing .Card-Row .card .more-info-parents .price-tariff span {
+  color: #fff;
+  font-size: 20px;
+}
+.Pricing .Card-Row .card4 {
+  margin-top: 31px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=Style.css.map */
