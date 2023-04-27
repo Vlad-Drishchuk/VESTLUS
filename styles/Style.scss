@@ -1,3 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+a{text-decoration: none;}
+.Big-Name{
+    font-family: DIN;
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: 85px;
+    text-align: center;
+}
+.down-Header{
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    h1{
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 150px;
+    }
+    .menu{
+        justify-content: space-around;
+
+        width: 450px;
+        ul{
+            display: flex;
+        li{
+            list-style-type: none;
+            width: 125px;
+            text-align: center;
+                a{
+                    font-size: 17px;
+                    font-weight: 600;
+                    line-height: 41.5px;
+                    color: #3D3D3D;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .Get-StartedBtn{
+        margin-left: 150px;
+        background-color: #000;
+        height: calc(52px - 9px);
+        margin-top: 8px;
+        width: 150px;
+        border-radius: 20px;
+        color: #fff;
+        text-align: center;
+        padding-top: 18px;
+        span{
+            font-size: 16px;
+        }
+    }
+}
+.content{
+    .home-page-parents{
+        display: flex;
+        margin-top: -8px;
+        height: 650px;
+    }
+    .home-page-left, .home-page-right{
+        width: calc(50vw - 1px);
+        border-width: 1px 1px 1px 1px;
+        border-style: solid;
+        border-color: #000000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home-page-left{
+        background-color: #F094E2;
+        .conteiner{
+            max-width: 530px;
+            margin-left: calc(25vw - 265px);
+            h2{
+                font-family: Poppins;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 64px;
+            }
+            p{
+                font-size: 19px;
+                font-weight: 500;
+            }
+            .Get-StartedBtn{
+                background-color: #000;
+                height: calc(52px - 9px);
+                width: 150px;
+                border-radius: 20px;
+                color: #fff;
+                text-align: center;
+                padding-top: 18px;
+                span{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .home-page-right{
+        background-color: #F6CB45;
+        .conteiner-parents{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            .rules{
+                width: 40%;
+                text-align: center;
+                p{
+                    font-family: DIN;
+                    font-size: 35px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
 }
