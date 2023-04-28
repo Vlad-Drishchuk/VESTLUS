@@ -1,0 +1,36 @@
+@media (max-width: 769px) {
+  .Big-Name {
+    font-size: 80px;
+    margin-top: 90px;
+  }
+  .down-Header {
+    flex-direction: column;
+  }
+  .down-Header h1 {
+    margin-right: 0px;
+  }
+  .down-Header .menu ul {
+    flex-direction: column;
+  }
+  .Get-StartedBtn {
+    display: none;
+  }
+  .content .home-page-parents {
+    flex-direction: column;
+    min-height: 650px;
+  }
+  .content .home-page-left, .content .home-page-right {
+    width: 100vw;
+  }
+  .content .home-page-left .conteiner {
+    max-width: 100vw;
+    margin: 15px;
+  }
+  .content .home-page-left h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .content .home-page-left p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=Media.css.map */

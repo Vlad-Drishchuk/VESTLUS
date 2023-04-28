@@ -20,6 +20,7 @@ a {
 .down-Header {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   max-height: 100px;
 }
 .down-Header h1 {
@@ -33,6 +34,7 @@ a {
 }
 .down-Header .menu ul {
   display: flex;
+  flex-direction: row;
 }
 .down-Header .menu ul li {
   list-style-type: none;
@@ -63,6 +65,7 @@ a {
 
 .content .home-page-parents {
   display: flex;
+  flex-direction: row;
   margin-top: -8px;
   height: 650px;
 }
