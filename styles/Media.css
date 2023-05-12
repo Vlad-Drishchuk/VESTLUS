@@ -60,6 +60,35 @@
   .About-us-content .text1 {
     margin-top: 15px;
   }
+  .Feedback {
+    background-color: #F6CB45;
+  }
+  .Feedback h1 {
+    font-family: DIN;
+    font-size: 85px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .Feedback .text {
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: -15px;
+  }
+  .Feedback .feedback-Parent {
+    margin-left: 5%;
+    max-width: 80%;
+    border-radius: 20px;
+    border: #000 solid 1px;
+    padding: 20px;
+    color: #000;
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .Pricing {
     background-color: #428683;
   }

@@ -169,8 +169,8 @@ a {
   margin-top: -15px;
 }
 .Feedback .feedback-Parent {
-  max-width: 950px;
-  margin-left: calc(50% - 475px);
+  max-width: 750px;
+  margin-left: calc(50% - 375px);
   border-radius: 20px;
   border: #000 solid 1px;
   padding: 20px;
