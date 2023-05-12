@@ -150,7 +150,38 @@ a {
   text-decoration-color: #000;
 }
 
+.Feedback {
+  background-color: #F6CB45;
+}
+.Feedback h1 {
+  font-family: DIN;
+  font-size: 100px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  padding-top: 100px;
+}
+.Feedback .text {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-top: -15px;
+}
+.Feedback .feedback-Parent {
+  max-width: 950px;
+  margin-left: calc(50% - 475px);
+  border-radius: 20px;
+  border: #000 solid 1px;
+  padding: 20px;
+  color: #000;
+  background: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .Pricing {
+  margin-top: -67px;
   background-color: #428683;
 }
 .Pricing h1 {
@@ -235,4 +266,14 @@ a {
 .Pricing .Card-Row .card4 {
   margin-top: 31px;
   margin-bottom: 20px;
+}
+
+footer {
+  height: 25px;
+  background-color: #000000;
+  text-align: center;
+}
+footer span {
+  font-size: 15px;
+  color: #fff;
 }/*# sourceMappingURL=Style.css.map */
